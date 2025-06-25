@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2016",      // Versione di JS in cui compilare. es2016 è molto compatibile.
+    "module": "commonjs",     // Sistema di moduli per l'output. commonjs è lo standard per Node.js.
+    "declaration": true,      // FONDAMENTALE: Genera i file di definizione dei tipi (.d.ts).
+    "outDir": "./dist",       // Cartella dove verrà messo il JavaScript compilato.
+    "rootDir": "./src",       // Cartella dove si trova il codice sorgente TypeScript.
+    "esModuleInterop": true,  // Migliora la compatibilità tra moduli CommonJS e ES.
+    "strict": true,           // Abilita tutte le opzioni di controllo stretto dei tipi. Consigliato.
+  },
+  "include": ["src/**/*"],
+  "exclude": [
+    "node_modules", 
+    "dist",
+    "src/_local_test.ts" // <-- AGGIUNGI QUESTA RIGA
+  ] 
+}

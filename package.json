@@ -1,0 +1,50 @@
+{
+  "name": "@colossus/utils",
+  "version": "1.0.0",
+  "description": "A modern, type-safe library for handling cryptographic operations across different curves (secp256k1, ed25519) and schemes (ECDSA, Schnorr, EdDSA).",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+    "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified, run local tests with 'npx ts-node src/_local_test.ts'\" && exit 1",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git"
+  },
+  "keywords": [
+    "crypto",
+    "cryptography",
+    "ecdsa",
+    "schnorr",
+    "eddsa",
+    "secp256k1",
+    "ed25519",
+    "typescript",
+    "noble"
+  ],
+  "author": "Colossus S.R.L.",
+  "license": "MIT",
+    "bugs": {
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/issues"
+  },
+  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+    "peerDependencies": {
+    "@noble/curves": "^1.4.0",
+    "@noble/hashes": "^1.4.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@noble/curves": "^1.9.2"
+  }
+}
