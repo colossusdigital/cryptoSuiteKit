@@ -1,7 +1,7 @@
 # Crypto Suite Kit
 
 [![NPM Version](https://badge.fury.io/gh/colossusdigital%2FcryptoSuiteKit.svg)](https://www.npmjs.com/package/@colossusdigital/cryptosuitekit)
-[![License: UNLICENSED](https://img.shields.io/badge/License-UNLICENSED-lightgrey.svg)]
+![License: UNLICENSED](https://img.shields.io/badge/License-UNLICENSED-lightgrey.svg)
 
 **A modern, type-safe, and extensible TypeScript library for handling common cryptographic operations across different curves and schemes like ECDSA, Schnorr, and EdDSA.**
 
