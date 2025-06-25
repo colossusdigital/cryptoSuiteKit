@@ -1,6 +1,6 @@
 {
   "name": "@colossusdigital/cryptosuitekit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A modern, type-safe library for handling cryptographic operations across different curves (secp256k1, ed25519) and schemes (ECDSA, Schnorr, EdDSA).",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
