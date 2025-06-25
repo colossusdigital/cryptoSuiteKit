@@ -1,10 +1,10 @@
 {
-  "name": "@colossus/utils",
+  "name": "@colossusdigital/cryptosuitekit",
   "version": "1.0.0",
   "description": "A modern, type-safe library for handling cryptographic operations across different curves (secp256k1, ed25519) and schemes (ECDSA, Schnorr, EdDSA).",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-    "files": [
+  "files": [
     "dist"
   ],
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git"
+    "url": "git+https://github.com/colossusdigital/cryptoSuiteKit.git"
   },
   "keywords": [
     "crypto",
@@ -27,24 +27,22 @@
     "typescript",
     "noble"
   ],
-  "author": "Colossus S.R.L.",
+  "author": "Colossus S.R.L. <info@colossus.digital>",
   "license": "MIT",
-    "bugs": {
-    "url": "https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/issues"
+  "bugs": {
+    "url": "https://github.com/colossusdigital/cryptoSuiteKit/issues"
   },
-  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME#readme",
+  "homepage": "https://github.com/colossusdigital/cryptoSuiteKit#readme",
   "publishConfig": {
     "access": "public"
   },
-    "peerDependencies": {
+  "peerDependencies": {
     "@noble/curves": "^1.4.0",
     "@noble/hashes": "^1.4.0"
   },
   "devDependencies": {
+    "@types/node": "^20.11.24",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
-  },
-  "dependencies": {
-    "@noble/curves": "^1.9.2"
+    "typescript": "^5.3.3"
   }
 }
