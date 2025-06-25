@@ -18,7 +18,7 @@ This library provides a clean, unified API to validate, normalize, sign, and ver
 ## Installation
 
 ```bash
-npm install YOUR_PACKAGE_NAME
+npm install @colossusdigital/cryptosuitekit
 ```
 You will also need to have `@noble/curves` and `@noble/hashes` in your project.
 ```bash
