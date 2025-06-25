@@ -1,7 +1,7 @@
 # Crypto Suite Kit
 
 [![NPM Version](https://badge.fury.io/gh/colossusdigital%2FcryptoSuiteKit.svg)](https://www.npmjs.com/package/@colossusdigital/cryptosuitekit)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: UNLICENSED](https://img.shields.io/badge/License-UNLICENSED-lightgrey.svg)]
 
 **A modern, type-safe, and extensible TypeScript library for handling common cryptographic operations across different curves and schemes like ECDSA, Schnorr, and EdDSA.**
 
@@ -30,7 +30,7 @@ npm install @noble/curves @noble/hashes
 Here is a complete example of validating a key, signing a message hash, and verifying the signature using `ECDSA` on the `secp256k1` curve.
 
 ```typescript
-import { getCryptoSuite, KeyValidationError } from 'YOUR_PACKAGE_NAME';
+import { getCryptoSuite, KeyValidationError } from '@colossusdigital/cryptosuitekit';
 import { sha256 } from '@noble/hashes/sha256';
 import { bytesToHex } from '@noble/curves/abstract/utils';
 
